@@ -2,15 +2,15 @@
 
 The purpose of this project is to implement a simple ATM.
 
-How to clone this project:
+# Installation
 
-copy and paste this command in a command prompt
+clone this repositoy
 
 git clone https://github.com/KyuMinYoo/Atm_controller.git
 
-The components:
+# The components
 
-1. testfile.txt: original test file that is manually edited by users for testing.
+1. testfile.txt: original account information text file that is manually edited by users for testing.
    
 2. file_copy.py: It creates a duplicate of the test file for other files to interact and change balance.
    The name of the duplicate is testfile_copy.txt.
@@ -20,13 +20,13 @@ The components:
    
 4. Atm_controller.py: The main interface file that uses bank file for this program.
 
-How to use:
+# How to use
 
 1. Change the testfile.txt manually to test this program. You can add more or delete lines in the file.
    The dictionary format of each lines must stay the same. Also, each pin numbers and account numbers are unique for each line,
    which means that there must not be same pin numbers and account numbers for different lines.
    
-   Or You can just use the given testfile.py without any modifications.
+   Or You can just use the given testfile.txt without any modifications.
 
 2. Run file_copy.py to create a copy of testfile. File named testfile_copy.txt. is created.
 
