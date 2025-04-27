@@ -1,5 +1,13 @@
 # Atm_controller
 
+The purpose of this project is to implement a simple ATM.
+
+How to clone this project:
+
+copy and paste this command in a command prompt
+
+git clone https://github.com/KyuMinYoo/Atm_controller.git
+
 The components:
 
 1. testfile.txt: original test file that is manually edited by users for testing.
